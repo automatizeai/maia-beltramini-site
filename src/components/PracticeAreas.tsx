@@ -5,26 +5,32 @@ const PracticeAreas = () => {
     {
       title: "Aposentadorias",
       description: "Auxílio na concessão de aposentadorias por idade, tempo de contribuição, invalidez e especial, garantindo seus direitos junto ao INSS.",
+      image: "/aposentadoria.png",
     },
     {
       title: "Pensão por Morte",
       description: "Orientação e suporte para beneficiários em casos de pensão por morte, assegurando o amparo necessário às famílias.",
+      image: "/pensao.png",
     },
     {
       title: "Revisões Previdenciárias",
       description: "Análise detalhada de benefícios para identificar possíveis direitos a revisões e aumentos de valores recebidos.",
+      image: "/revisao.png",
     },
     {
       title: "Auxílio-Doença e Acidente",
       description: "Assessoria completa para concessão e manutenção de benefícios por incapacidade temporária ou permanente.",
+      image: "/auxiliodoenca.png",
     },
     {
       title: "Regularização de Vínculos",
       description: "Especialização em reconhecimento de vínculos empregatícios e períodos de contribuição não computados.",
+      image: "/regularizacao.png",
     },
     {
       title: "BPC/LOAS",
       description: "Orientação para obtenção do Benefício de Prestação Continuada para idosos e pessoas com deficiência de baixa renda.",
+      image: "/bcp.png",
     },
   ];
 
@@ -47,18 +53,25 @@ const PracticeAreas = () => {
           {areas.map((area, index) => (
             <Card
               key={index}
-              className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group hover:-translate-y-1"
+              className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group hover:-translate-y-1 relative overflow-hidden"
             >
-              <CardHeader>
-                <CardTitle className="text-xl font-heading text-white">
-                  {area.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  {area.description}
-                </p>
-              </CardContent>
+              <div
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                style={{ backgroundImage: `url(${area.image})` }}
+              />
+              <div className="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition-all duration-300" />
+              <div className="relative h-full flex flex-col justify-start p-6">
+                <CardHeader className="mb-4">
+                  <CardTitle className="text-xl font-heading text-white">
+                    {area.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-white leading-relaxed">
+                    {area.description}
+                  </p>
+                </CardContent>
+              </div>
             </Card>
           ))}
         </div>

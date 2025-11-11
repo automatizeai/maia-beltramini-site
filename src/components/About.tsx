@@ -27,7 +27,7 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:bg-primary/20 transition-colors">
                 <Scale className="w-8 h-8 text-custom-gold" />
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-4">
@@ -41,7 +41,7 @@ const About = () => {
 
           <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:bg-primary/20 transition-colors">
                 <Eye className="w-8 h-8 text-custom-gold" />
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-4">
@@ -55,7 +55,7 @@ const About = () => {
 
           <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:bg-primary/20 transition-colors">
                 <Heart className="w-8 h-8 text-custom-gold" />
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-4">
