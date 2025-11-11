@@ -52,7 +52,7 @@ const Contact = () => {
                       Endereço
                     </h3>
                     <p className="text-muted-foreground">
-                      Montes Claros, Minas Gerais
+                      Rua Antonio Maciel Santos, 785 - LJ A - Maj. Prates, Montes Claros - MG
                     </p>
                   </div>
                 </div>
