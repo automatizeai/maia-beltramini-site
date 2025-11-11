@@ -7,10 +7,10 @@ const About = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-custom-gold to-yellow-300 mb-4">
             Sobre Nós
           </h2>
-          <div className="h-1 w-24 bg-primary mx-auto mb-6" />
+          <div className="h-1 w-24 bg-custom-gold mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Fundado em 2016 em Montes Claros, Minas Gerais, o escritório Maia & Beltramini nasceu com o propósito de levar justiça e proteção aos trabalhadores do Norte de Minas.
           </p>
@@ -19,7 +19,7 @@ const About = () => {
         {/* Mission Statement */}
         <div className="max-w-4xl mx-auto mb-16 text-center">
           <p className="text-xl text-foreground leading-relaxed">
-            Consolidamos nossa trajetória como referência em <span className="font-semibold text-primary">Direito Previdenciário</span>, ajudando centenas de clientes a conquistar benefícios do INSS com segurança, agilidade e, principalmente, respeito.
+            Consolidamos nossa trajetória como referência em <span className="font-semibold text-custom-gold">Direito Previdenciário</span>, ajudando centenas de clientes a conquistar benefícios do INSS com segurança, agilidade e, principalmente, respeito.
           </p>
         </div>
 
@@ -27,10 +27,10 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
-                <Scale className="w-8 h-8 text-primary" />
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+                <Scale className="w-8 h-8 text-custom-gold" />
               </div>
-              <h3 className="text-2xl font-heading font-bold text-primary mb-4">
+              <h3 className="text-2xl font-heading font-bold text-white mb-4">
                 Missão
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -41,10 +41,10 @@ const About = () => {
 
           <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
-                <Eye className="w-8 h-8 text-primary" />
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+                <Eye className="w-8 h-8 text-custom-gold" />
               </div>
-              <h3 className="text-2xl font-heading font-bold text-primary mb-4">
+              <h3 className="text-2xl font-heading font-bold text-white mb-4">
                 Visão
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -55,10 +55,10 @@ const About = () => {
 
           <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg group">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
-                <Heart className="w-8 h-8 text-primary" />
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors">
+                <Heart className="w-8 h-8 text-custom-gold" />
               </div>
-              <h3 className="text-2xl font-heading font-bold text-primary mb-4">
+              <h3 className="text-2xl font-heading font-bold text-white mb-4">
                 Valores
               </h3>
               <ul className="text-muted-foreground leading-relaxed space-y-2">

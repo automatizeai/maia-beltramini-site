@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Catamaran', 'sans-serif'],
-        heading: ['Baskerville', 'Georgia', 'serif'],
+        heading: ['"Baskerville Old Face"', 'Georgia', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -51,6 +51,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        'custom-gold': '#CE8946',
         'law-blue': "hsl(var(--law-blue))",
         'law-purple': "hsl(var(--law-purple))",
         'law-gray': "hsl(var(--law-gray))",

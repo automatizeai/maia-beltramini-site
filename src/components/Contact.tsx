@@ -29,10 +29,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-custom-gold to-yellow-300 mb-4">
             Entre em Contato
           </h2>
-          <div className="h-1 w-24 bg-primary mx-auto mb-6" />
+          <div className="h-1 w-24 bg-custom-gold mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Estamos prontos para atender você e esclarecer suas dúvidas
           </p>
@@ -44,8 +44,8 @@ const Contact = () => {
             <Card className="border-2">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-custom-gold" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-foreground mb-2">
@@ -62,15 +62,15 @@ const Contact = () => {
             <Card className="border-2">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-custom-gold" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-foreground mb-2">
                       Telefone
                     </h3>
                     <p className="text-muted-foreground">
-                      (38) 0000-0000
+                      (38) 99932-9662
                     </p>
                   </div>
                 </div>
@@ -80,8 +80,8 @@ const Contact = () => {
             <Card className="border-2">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-custom-gold" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-foreground mb-2">
@@ -98,8 +98,8 @@ const Contact = () => {
             <Card className="border-2">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-custom-gold" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-foreground mb-2">

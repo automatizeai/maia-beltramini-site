@@ -19,7 +19,7 @@ const Hero = () => {
           alt="Maia & Beltramini"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-primary/80" />
+        <div className="absolute inset-0 bg-background/90" />
       </div>
 
       {/* Content */}
@@ -36,7 +36,7 @@ const Hero = () => {
             Humanização, ética e respeito desde 2016
           </h2>
 
-          <p className="text-xl md:text-2xl font-light mb-12 text-white/90 max-w-3xl mx-auto">
+          <p className="text-xl md:text-xl font-light mb-12 text-white/90 max-w-3xl mx-auto">
             Protegendo seus direitos previdenciários com conhecimento técnico e
             atendimento humanizado
           </p>
